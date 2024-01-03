@@ -16,5 +16,6 @@
 #
 
 
+#JAVA_OPTS="-Djava.util.concurrent.ForkJoinPool.common.parallelism=16 -XX:StartFlightRecording=filename=bjhara.jfr,dumponexit=true"
 JAVA_OPTS=""
 java $JAVA_OPTS --class-path target/average-1.0.0-SNAPSHOT.jar dev.morling.onebrc.CalculateAverage_bjhara
